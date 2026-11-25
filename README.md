@@ -63,6 +63,7 @@ GOTOOLCHAIN=go1.27.0 ./run.sh v0 2 400 4 out/v0-1270
 | `baselines/mutation/` | Byte-level mutation baseline and its classifier |
 | `triage/` | Auto-classifier for single-field runs |
 | `repro/` | Minimal reproducers for each filed issue and for the known issues used in the recall study |
+| `recall/` | 10-seed recall check against the known issues, with a go1.27.4 control |
 | `prevalence/` | go/ast scanner for the affected patterns, and the script that ran it on popular repositories |
 | `docs/` | Pre-registration, recall and baseline results, ablation and prevalence results |
 
